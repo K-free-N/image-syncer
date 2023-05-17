@@ -4,5 +4,5 @@ auth:
     password: $PASSWORD
 images:
    k8s.gcr.io/metrics-server/metrics-server: kfree/sync_k8s/metrics-server
-   registry.k8s.io/ingress-nginx/controller: kfree/sync_k8s/ingress-nginx/controller
-   registry.k8s.io/ingress-nginx/kube-webhook-certgen: kfree/sync_k8s/ingress-nginx/kube-webhook-certgen
+   #registry.k8s.io/ingress-nginx/controller: kfree/sync_k8s/ingress-nginx/controller
+   #registry.k8s.io/ingress-nginx/kube-webhook-certgen: kfree/sync_k8s/ingress-nginx/kube-webhook-certgen
