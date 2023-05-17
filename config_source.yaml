@@ -4,5 +4,5 @@ auth:
     password: $PASSWORD
 images:
    #k8s.gcr.io/metrics-server/metrics-server: registry.cn-beijing.aliyuncs.com/kfree/metrics-server
-   registry.k8s.io/ingress-nginx/controller:v1.3.0: registry.cn-beijing.aliyuncs.com/kfree/ingress-nginx-controller
-   registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.1.1: registry.cn-beijing.aliyuncs.com/kfree/ingress-nginx-kube-webhook-certgen
+   registry.k8s.io/ingress-nginx/controller: registry.cn-beijing.aliyuncs.com/kfree/ingress-nginx-controller
+   registry.k8s.io/ingress-nginx/kube-webhook-certgen: registry.cn-beijing.aliyuncs.com/kfree/ingress-nginx-kube-webhook-certgen
