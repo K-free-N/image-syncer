@@ -1,7 +1,7 @@
 auth:
   registry.cn-beijing.aliyuncs.com:
-    username: USERNAME
-    password: PASSWORD
+    username: $USERNAME
+    password: $PASSWORD
 images:
    k8s.gcr.io/metrics-server/metrics-server: registry.cn-beijing.aliyuncs.com/kfree/metrics-server
    # registry.k8s.io/ingress-nginx/controller: kfree/sync_k8s/ingress-nginx/controller
